@@ -1,10 +1,23 @@
-function validaIdade(idade){
-    if(idade>=18){
-        return true;
-    } else {
-        return false;
-    }
+function botao(){
+    document.getElementById("agradecimento").innerHTML = "Obrigado por clicar";
 }
 
-let idade = prompt("Qual é sua idade?");
-console.log(validaIdade(idade));
+function redirecionar(){
+    window.open("https://www.google.com/");
+}
+
+function trocar(elemento){
+    elemento.innerHTML = "Obrigado por passar o mouse";
+}
+
+function voltar(elemento){
+    elemento.innerHTML = "Passe o mouse aqui";
+}
+
+function load(){
+    alert("Pagina carregada");
+}
+
+function funcaoChange(elemento){
+    console.log(elemento.value);
+}
